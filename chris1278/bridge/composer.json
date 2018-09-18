@@ -1,0 +1,26 @@
+{
+	"name": "chris1278/bridge",
+	"type": "phpbb-extension",
+	"description": "Stellt eine Verbindung her zwischen der Extension Statblock von kirk und der Wer war da Extension (FORK) von Lukecws damit die Wer war da ANzeige auch im Statblock von kirk angezeigt wird",
+	"homepage": "kommt später",
+	"version": "1.0.0",
+	"time": "2018-09-17",
+	"license": "GPL-2.0",
+	"authors": [{
+			"name": "Christian Esch aka Chris1278",
+			"email": "smilie-man@gmx.de",
+			"homepage": "http://minipomforum.de",
+			"role": "Lead Developer"
+		}
+		],
+	"require": {
+		"php": ">=5.3.9"
+	},
+	"extra": {
+		"display-name": "Brücke zwischen Wwh Ext und Statblock EXT ",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.5,<3.2.*@dev"
+		}
+		
+	}
+}
