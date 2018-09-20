@@ -2,7 +2,7 @@
 	"name": "chris1278/bridge",
 	"type": "phpbb-extension",
 	"description": "Stellt eine Verbindung her zwischen der Extension Statblock von kirk und der Wer war da Extension (FORK) von Lukecws damit die Wer war da ANzeige auch im Statblock von kirk angezeigt wird",
-	"homepage": "kommt später",
+	"homepage": "https://www.phpbb.de/community/viewtopic.php?f=149&t=242009",
 	"version": "1.0.0",
 	"time": "2018-09-17",
 	"license": "GPL-2.0",
