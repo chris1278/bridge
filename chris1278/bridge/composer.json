@@ -22,9 +22,10 @@
 			"phpbb/phpbb": ">=3.1.5,<3.2.*@dev"
 		},
 		"version-check": {
-			"host": "tilt-syndikat.org",
-			"directory": "/",
-			"filename": "bridge.json"
+         "host": "raw.githubusercontent.com",
+         "directory": "/Chris1278/bridge/master",
+         "filename": "bridge.json",
+         "ssl": true
 		}
 		
 	}
