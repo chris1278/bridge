@@ -5,7 +5,7 @@
 			"download": "https://github.com/Chris1278/bridge",
 			"announcement": "https://www.phpbb.de/community/viewtopic.php?f=149&p=1387722#p1387722",
 			"eol": null,
-			"security": true
+			"security": false
 		}
 	}
 }
