@@ -19,7 +19,7 @@
 	"extra": {
 		"display-name": "Brücke zwischen Wwh Ext und Statblock EXT ",
 		"soft-require": {
-			"phpbb/phpbb": ">=3.1.5,<3.2.*@dev"
+			"phpbb/phpbb": " >=3.1.5,<3.2@dev"
 		},
 	 "version-check": {
          "host": "raw.githubusercontent.com",
