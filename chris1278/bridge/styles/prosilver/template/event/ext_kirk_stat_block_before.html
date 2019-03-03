@@ -1,8 +1,4 @@
-<!-- IF WHO_WAS_HERE_TOTAL && WHO_WAS_HERE_POS == 0 -->
-<div>
-   <h3>{L_WHO_WAS_HERE}</h3>
-   <p>{WHO_WAS_HERE_TOTAL} ({WHO_WAS_HERE_EXP})<br />{WHO_WAS_HERE_RECORD}
-   <!-- IF WHO_WAS_HERE_LIST --><br />{WHO_WAS_HERE_LIST}<!-- ENDIF -->
-   <!-- IF WHO_WAS_HERE_BOTS --><br />{WHO_WAS_HERE_BOTS}<!-- ENDIF --></p>
-</div>
-<!-- ENDIF -->
+{% if WWH_TOTAL && (WWH_POS == 0 || WWH_POS_ALL) %}
+{% INCLUDE '@chris1278_bridge/who_was_here.html' %}
+{% INCLUDEJS '@bb3mobi_washere/who_was_here.js' %}
+{% endif %}
