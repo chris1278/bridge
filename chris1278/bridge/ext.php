@@ -41,7 +41,7 @@ class ext extends \phpbb\extension\base
 		{
 			$clean_required = html_entity_decode($required);
 /** In der folgenden  Zeile die mindestanforderung an lf wwh Version*/
-			$version = phpbb_version_compare($clean_required, '1.5.0-dev', '>=');
+			$version = phpbb_version_compare($clean_required, '1.5.0', '>=');
 		}
 
 		/* Wrong VERSION? No party! */
