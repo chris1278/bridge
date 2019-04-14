@@ -15,7 +15,7 @@ class ext extends \phpbb\extension\base
 		$user->add_lang_ext('chris1278/bridge', 'bridge');
 		$lang = $user->lang;
 /** In der folgenden  Zeile die aktuelle phpbb Version die genutzt werdenn mus*/
-		if (!( (phpbb_version_compare(PHPBB_VERSION, '3.2.0', '>=') )) ) 
+		if (!( (phpbb_version_compare(PHPBB_VERSION, '3.1.11', '>=') )) ) 
 		{
 			$lang['EXTENSION_NOT_ENABLEABLE'] .= '<br>' . $user->lang('ERROR_MSG_3112_MISTMATCH');
 			$is_enableable = false;
