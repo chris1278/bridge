@@ -21,7 +21,7 @@ class ext extends \phpbb\extension\base
 		$user->add_lang_ext('chris1278/bruecke', 'bridge');
 		$lang = $user->lang;
 
-		if (!( (phpbb_version_compare(PHPBB_VERSION, '3.2.0', '>=') )) ) 
+		if (!( (phpbb_version_compare(PHPBB_VERSION, '3.1.11', '>=') )) ) 
 		{
 			$lang['EXTENSION_NOT_ENABLEABLE'] .= '<br>' . $user->lang('ERROR_PHPBB_WRONG_VERSION');
 			$is_enableable = false;
