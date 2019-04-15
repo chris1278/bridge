@@ -2,7 +2,7 @@
 
 Aktuelle Version 2.0..-beta1
 
-#Changelog 2.0.0-beta1 (2019-04-15)
+# Changelog 2.0.0-beta1 (2019-04-15)
 
 -> Komplette anpassung an LF who was here 2.0.0-beta1
 
