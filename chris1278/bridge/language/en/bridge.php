@@ -37,5 +37,5 @@ $lang = array_merge($lang, array(
 	'ERROR_WRONG_PHPBB_VERSION'				=> 'Please check if you have the right version of the phpbb forum installed. At least version from 3.2.x Best the most recent',
 	'ERROR_WHO_WAS_HERE_WRONG_VERSION'		=> '<br>The version of "LF Who Was Da" installed by you is the wrong version.<br>
 	
-	Download the current version here: <a href="https://github.com/LukeWCS/lf-who-was-here/releases/" target="_blank">“Who was here?”</a> <br> Required >= At least Version from 2.0.0-beta1',
+	Download the current version here: <a href="https://github.com/LukeWCS/lf-who-was-here-2" target="_blank">“Who was here?”</a> <br> Required >= At least Version from 2.0.0-beta1',
 ));
