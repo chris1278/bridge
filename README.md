@@ -4,7 +4,9 @@ Aktuelle Version 2.0.0-RC2
 
 # Changelog 2.0.0-RC2 (2019-12-24)
 
--> Komplette anpassung an LF who was here 2 Version. 2.0.0-rc2                                                                              -> entfernen von überflüssigem Verzeichniss (styles/all)
+-> Komplette anpassung an LF who was here 2 Version. 2.0.0-rc2
+
+-> entfernen von überflüssigem Verzeichniss (styles/all)
 
 # Changelog 2.0.0-RC1 (2019-12-15)
 
