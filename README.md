@@ -1,10 +1,14 @@
 # bridge
 
-Aktuelle Version 2.0.0-RC1
+Aktuelle Version 2.0.0-RC2
+
+# Changelog 2.0.0-RC2 (2019-12-15)
+
+-> Komplette anpassung an LF who was here 2 Version. 2.0.0-rc2
 
 # Changelog 2.0.0-RC1 (2019-12-15)
 
--> Komplette anpassung an LF who was here 2 Version. 2.0.0-beta1
+-> Komplette anpassung an LF who was here 2 Version. 2.0.0-rc1
 
 # Changelog 2.0.0-beta1 (2019-04-15)
 
