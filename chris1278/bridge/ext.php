@@ -56,7 +56,7 @@ class ext extends \phpbb\extension\base
 			/** 
 			* The following line determines which version of the required extension must be installed at least.
 			*/
-				$version = phpbb_version_compare($clean_required, '2.0.0-RC1', '>=');
+				$version = phpbb_version_compare($clean_required, '2.0.0-RC2', '>=');
 			}
 
 			/* Wrong VERSION? No party! */
