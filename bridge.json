@@ -1,7 +1,7 @@
 {
 	"stable": {
 		"2.0": {
-			"current": "2.0.0-RC1",
+			"current": "2.0.0-RC2",
 			"download": "https://github.com/Chris1278/bridge",
 			"announcement": "https://www.phpbb.de/community/viewtopic.php?f=149&p=1387722#p1387722",
 			"eol": null,
