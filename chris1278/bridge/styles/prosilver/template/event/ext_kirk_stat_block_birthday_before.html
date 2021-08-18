@@ -1,4 +1,0 @@
-{% if (LFWWH_TOTAL || LFWWH_LIST) && LFWWH_POS b-and 4 %}
-	{% if LFWWH_POS == 7 %}{% set lfwwh_debug_msg = LFWWH_POS_EXP_4 ~ '<br />' %}{% endif %}
-	{% INCLUDE '@chris1278_bridge/bridge.html' %}
-{% endif %}
