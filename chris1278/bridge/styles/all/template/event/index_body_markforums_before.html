@@ -1,0 +1,13 @@
+{% if (LFWWH_TOTAL || LFWWH_USERS) %}
+	{% if !definition.INCLUDED_WHO_WAS_HERE %}
+		{% INCLUDEJS '@lukewcs_whowashere/who_was_here.js' %}
+		{% INCLUDECSS '@lukewcs_whowashere/who_was_here.css' %}
+		{% DEFINE INCLUDED_WHO_WAS_HERE = true %}
+	{% endif %}
+	{% INCLUDECSS '@chris1278_bridge/bridge.css' %}	
+{% endif %}
+
+
+
+	
+
