@@ -1,5 +1,14 @@
 # bridge
 
+Aktuelle Version 2.1.0
+
+# Changelog 2.1.0 
+
+-> Komplette anpassung an LF who was here 2 Version. 2.0.0-rc2
+
+Php auf min. 7.0 gesetzt
+phpbb ab 3.2.10 gesetzt
+
 Aktuelle Version 2.0.0-RC2
 
 # Changelog 2.0.0-RC2 (2019-12-24)
