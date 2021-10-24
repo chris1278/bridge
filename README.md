@@ -1,6 +1,11 @@
 # bridge
 
-Aktuelle Version 2.1.0
+Aktuelle Version 2.1.1
+
+# Changelog 2.1.1
+
+Codeanpassungen an WWH Extension version 2.1.1
+Auf schort-Array umgestellt
 
 # Changelog 2.1.0 
 
