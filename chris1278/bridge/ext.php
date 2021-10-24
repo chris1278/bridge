@@ -28,17 +28,18 @@ class ext extends \phpbb\extension\base
 		$wb = $lang['WWH_BRIDGE'];
 		$phpbb_min_ver		= '3.2.10';
 		$phpbb_below_ver	= '3.4.0@dev';
-		$php_min_ver		= '7.0.0';
-		$php_below_ver		= '9.0.0';
-
-		if (!(phpbb_version_compare(PHPBB_VERSION, $phpbb_min_ver, '>=') && phpbb_version_compare(PHPBB_VERSION, $phpbb_below_ver, '<')))
-		{
-			trigger_error(sprintf($lang['EXTENSION_NOT_ENABLEABLE'] . '<br />' . $lang['ERROR_MSG_3112_MISTMATCH'], $eb, $phpbb_min_ver, $phpbb_below_ver) . $this->get_adm_back_link(), E_USER_WARNING);
-		}
+		$php_min_ver	= '7.0.0';
+		$php_below_ver	= '8.1.0';
+		$wwh_ver	= '2.1.1';
 
 		if (!(phpbb_version_compare(PHP_VERSION, $php_min_ver, '>=') && phpbb_version_compare(PHP_VERSION, $php_below_ver, '<')))
 		{
 			trigger_error(sprintf($lang['EXTENSION_NOT_ENABLEABLE'] . '<br />' . $lang['ERROR_PHP_MISTMATCH'], $eb, $php_min_ver, $php_below_ver) . $this->get_adm_back_link(), E_USER_WARNING);
+		}
+
+		if (!(phpbb_version_compare(PHPBB_VERSION, $phpbb_min_ver, '>=') && phpbb_version_compare(PHPBB_VERSION, $phpbb_below_ver, '<')))
+		{
+			trigger_error(sprintf($lang['EXTENSION_NOT_ENABLEABLE'] . '<br />' . $lang['ERROR_PHPBB_MISTMATCH'], $eb, $phpbb_min_ver, $phpbb_below_ver) . $this->get_adm_back_link(), E_USER_WARNING);
 		}
 
 		/**
@@ -75,14 +76,14 @@ class ext extends \phpbb\extension\base
 			/**
 			* The following line determines which version of the required extension must be installed at least.
 			*/
-				$version = phpbb_version_compare($clean_required, '2.1.0', '>='); /*hier version der  LF-who_was_here anpassen de installiert sein muss.*/
+				$version = phpbb_version_compare($clean_required, $wwh_ver, '>='); /*hier version der  LF-who_was_here anpassen de installiert sein muss.*/
 			}
-			$wwh_min_ver	= '2.1.0';  /*hier version der  LF-who_was_here anpassen de installiert sein muss.*/
+
 			/* Wrong VERSION? No party! */
 			if ( !($version))
 			{
-				trigger_error(sprintf($lang['EXTENSION_NOT_ENABLEABLE'] . '<br />' . $user->lang('ERROR_WHO_WAS_HERE_WRONG_VERSION'), $wwh_min_ver). adm_back_link(append_sid('index.' . $this->container->getParameter('core.php_ext'), 'i=acp_extensions&amp;mode=main')), E_USER_WARNING);
-				/*$lang['EXTENSION_NOT_ENABLEABLE'] .= '<br>' . $user->lang('ERROR_WHO_WAS_HERE_WRONG_VERSION');*/
+				trigger_error(sprintf($lang['EXTENSION_NOT_ENABLEABLE'] . '<br />' . $user->lang('ERROR_WHO_WAS_HERE_WRONG_VERSION'), $wwh_ver). adm_back_link(append_sid('index.' . $this->container->getParameter('core.php_ext'), 'i=acp_extensions&amp;mode=main')), E_USER_WARNING);
+
 				$is_enableable = false;
 			}
 

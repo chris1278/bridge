@@ -1,0 +1,5 @@
+services:
+    chris1278.bridge.listener:
+        class: chris1278\bridge\event\listener
+        tags:
+            - { name: event.listener }

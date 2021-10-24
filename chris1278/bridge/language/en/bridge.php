@@ -16,7 +16,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -31,12 +31,12 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ERROR_BRIDGE'							=> 'Bridge between “LF who was here” and “Stat Block”',
 	'WWH_BRIDGE'							=> 'LF who was here',
 	'ERROR_BRIDGE_EXTENSION_NOT_ENABLEABLE'	=> 'The extension “%1$s - Bridge between "LF Wer War Da" and "[3.1] [3.2] Stat BLock" Extension can not be activated. Please check the prerequisites that are necessary for the extension.',
 	'ERROR_WHO_WAS_HERE_NOT_INSTALLED'		=> '<br>The extension <a href="https://github.com/LukeWCS/lf-who-was-here/releases" target="_blank">“%2$s”</a> must be installed first.<br> Please make sure that you have the correct version installed.',
-	'ERROR_MSG_3112_MISTMATCH'				=> 'Please check if you have the right version of the phpbb forum installed. Minimum phpBB %2$s but smaller than %3$s',
-	'ERROR_WHO_WAS_HERE_WRONG_VERSION'		=> '<br>The version of "LF Who Was Da" installed by you is the wrong version.<br>Download the current version here: <a href="https://github.com/LukeWCS/lf-who-was-here/releases/" target="_blank">“Who was here?”</a> Extension installed. Required Version = %1$s',
-	'ERROR_PHP_MISTMATCH'					=> 'The wrong PHP version is active. Please check the requirements.<br><br>Minimum PHP %2$s but smaller than %3$s',
-));
+	'ERROR_PHPBB_MISTMATCH'				=> 'Please check if you have the right version of the phpbb forum installed. Minimum phpBB %2$s but smaller than %3$s',
+	'ERROR_WHO_WAS_HERE_WRONG_VERSION'		=> '<br>The version of "LF Who Was Da" installed by you is the wrong version.<br> Download the current version here: <a href="https://github.com/LukeWCS/lf-who-was-here/releases/" target="_blank">“Who was here?”</a> Extension installed. Required Version = %1$s',
+	'ERROR_PHP_MISTMATCH'					=> '<br>Please check whether the correct php version is active. <br>At least PHP %2$s Maximum kleiner als PHP %3$s',
+]);
