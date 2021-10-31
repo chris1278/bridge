@@ -1,4 +1,3 @@
-<div class="stat-block whowashere-list">
 	<h3>{{ lang('LFWWH_TITLE') }}</h3>
 	<p>
 		{% if lfwwh_pos_hint %}
@@ -18,7 +17,6 @@
 			{{ lang('LFWWH_BOTS_PREFIX') ~ lang('COLON') }} {{ LFWWH_BOTS_SHOW_BUTTON ? _self.lfwwh_info_button('bots', LFWWH_BOTS_SHOW_BUTTON) ~ ' ' }}{{ LFWWH_BOTS }}<br />
 		{% endif %}
 	</p>
-</div>
 
 {% macro lfwwh_info_button(buttontype, infotype) %}
 	{% if infotype == 1 %}
