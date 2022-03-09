@@ -1,8 +1,8 @@
 {
 	"stable": {
-		"2.1": {
-			"current": "2.1.1",
-			"download": "https://github.com/Chris1278/bridge",
+		"3.0": {
+			"current": "3.0.0",
+			"download": "https://github.com/chris1278/statblockbridge",
 			"announcement": "https://www.phpbb.de/community/viewtopic.php?f=149&p=1387722#p1387722",
 			"eol": null,
 			"security": false
